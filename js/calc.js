@@ -79,6 +79,7 @@ var dcalculator = (function(){
     
     pub.final = function(){ //function to evaluate the result
         var expresn = store;
+	store = "";
         expresn+=document.getElementById("result").value;
         if (expresn && checkNum(expresn)) { //ensuring expression last characters are numbers
             expresn = eval(expresn).toPrecision(10).replace(/\.?0+$/,"").replace(/\.$/, "");
