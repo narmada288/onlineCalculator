@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="description" content="Mobile Calculator">
+    <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+    <meta name="author" content="Narmada Chowdary Nannaka_13259138">
+    <meta charset="UTF-8">
+    <title>Mobile Calculator</title>
+    <link rel="stylesheet" href="css\normal.css" type="text/css" 
+</head>
+<body>
+<div id="wrapper">
+    <form id="calc" action="javascript:dcalculator.final();">
+        <table id="disp">
+        <thead>
+            <tr>
+            <th><input type="button" value="C" id="clears" onclick="javascript:dcalculator.clear();"/></th>
+            <th colspan= "4"><input type="text" value="" name="result" id="result"/></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><input type="button" value="7" id="seven" onclick="javascript:dcalculator.eValue(7);"/></td>
+                <td><input type="button" value="8" id="eight" onclick="javascript:dcalculator.eValue(8);"/></td>
+                <td><input type="button" value="9" id="nine" onclick="javascript:dcalculator.eValue(9);"/></td>
+                <td><input type="button" value="/" id="division" onclick="javascript:dcalculator.operatn('/');"/></td>
+                <td><input type="button" value="M+" id="mplus" onclick="javascript:dcalculator.operatn('M+');"/></td>
+            </tr>
+            <tr>
+                <td><input type="button" value="4" id="four" onclick="javascript:dcalculator.eValue(4);"/></td>
+                <td><input type="button" value="5" id="five" onclick="javascript:dcalculator.eValue(5);"/></td>
+                <td><input type="button" value="6" id="six" onclick="javascript:dcalculator.eValue(6);"/></td>
+                <td><input type="button" value="X" id="multiply" onclick="javascript:dcalculator.operatn('*');"/></td>
+                <td><input type="button" value="M-" id="mminus" onclick="javascript:dcalculator.operatn('M-');"/></td>
+            </tr>
+            <tr>
+                <td><input type="button" value="1" id="one" onclick="javascript:dcalculator.eValue(1);"/></td>
+                <td><input type="button" value="2" id="two" onclick="javascript:dcalculator.eValue(2);"/></td>
+                <td><input type="button" value="3" id="three" onclick="javascript:dcalculator.eValue(3);"/></td>
+                <td><input type="button" value="-" id="diff" onclick="javascript:dcalculator.operatn('-');"/></td>
+                <td><input type="button" value="MR" id="mrecall" onclick="javascript:dcalculator.operatn('MR');"/></td>
+            </tr>
+            <tr>
+                <td><input type="button" value="0" id="zero" onclick="javascript:dcalculator.eValue(0);"/></td>
+                <td><input type="button" value="." id="decimal" onclick="javascript:dcalculator.operatn('.');"/></td>
+                <td><input type="submit" value="=" id="equal"/></td>
+                <td><input type="button" value="+" id="sum" onclick="javascript:dcalculator.operatn('+');"/></td>
+                <td><input type="button" value="MC" id="mclear" onclick="javascript:dcalculator.operatn('MC');"/></td>
+            </tr>
+        </tbody>
+        </table>
+    </form>
+</div>
+<script type="application/x-javascript" src="js\calc.js"></script>
+</body>
+</html>
