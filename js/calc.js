@@ -94,7 +94,6 @@ var dcalculator = (function(){
             expresn = "Invalid Entry"
         }
         document.getElementById("result").value = expresn;
-	store = expresn;
     };
     
     pub.clear = function(){ //function to reset page
