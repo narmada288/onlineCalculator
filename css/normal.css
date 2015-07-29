@@ -45,10 +45,6 @@ body{
     background-color: #808080 ;
 }
 
-input{
-    width: 90%;
-}
-
 button{
     border-style: groove;
     font-family: sans-serif;
