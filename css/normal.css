@@ -40,13 +40,14 @@ body{
 }
 
 #clears{
+    width: 4%;
     height: 43px;
     background-color: #808080 ;
 }
 
 input{
-    width: 20%;
-    height: 20%;
+    width: 60%;
+    height: 60%;
 }
 
 button{
