@@ -2,7 +2,7 @@ body{
     background-color: black;
     min-width: 100px;
     max-width: 768px;
-    max-width: 768px;
+    max-height: 768px;
     margin: 0 auto;
     padding: 2em;
     text-align: center;
